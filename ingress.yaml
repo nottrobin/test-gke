@@ -1,0 +1,9 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: test-gke
+spec:
+  backend:
+    serviceName: test-gke
+    servicePort: 80
+
